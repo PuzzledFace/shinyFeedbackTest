@@ -1,0 +1,60 @@
+---
+title: "Change Log"
+output: html_document
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+## Change log
+
+### To do
+  * Modularise numeric inputs
+  
+### Version 0.2.04 (beta) 12May2020
+  * Fix issues with non-responsive side menu
+  * Introduce test mode
+  * Introduce settings panel for Admin users
+
+### Version 0.2.03 (beta) 01May2020
+  * Add hospital ID.
+  * Start adding help icons
+  * Implement site data downloads
+  * Implement initial QC checks
+  
+### Version 0.2.02 (beta) 01May2020
+  * Allow sites to amend their own details
+  * Allow sites to extend their own randomisation
+
+### Version 0.2.01 (beta) 29Apr2020
+  * Collect ethnicity, date of hospital discharge, date of ICU discharge and death related to COVID-19
+  * Prevent randomisation of ineligible patients
+  * Prevent modification of stratum flags after randomisation
+  
+### Version 0.1.02 (beta) 24Apr2020
+  * Update admin functions and UI
+  * Introduce data download functionality
+  * Temporarily disable Admin screens because of formatting problems
+  
+### Version 0.1.01 (beta) 23Apr2020
+  * Implement shinyapps.io user authentication
+
+### Version 0.0.03 (beta) 21Apr2020
+  * Initial implementation of site-specific data quality reporting
+  * Fixed issues with icons not being available on shinyapps.io
+  * Fixed errors caused by NULL values in shiny widgets when updating the current patient's data
+  
+### Version 0.0.02 (beta)
+  * Added clinical presentation
+  * Added ability to save response data
+  
+### Version 0.0.01 (beta)
+  * Converted all snackbars to modal dialogs
+  * Implemented data collection for response data
+  * Improved feedback guidance for first patient at site
+  * Improved feedback guidance for failed inclusion/exclusion criteria
+  * Changed comboBox values from "Y"/"N" to TRUE/FALSE
+
+Last updated on `r Sys.Date()` by `r Sys.info()[['user']]` on `r Sys.info()['nodename']`.
+
